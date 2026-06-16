@@ -43,7 +43,7 @@ Before resolving client support tickets, the baseline environment metrics were t
 *   **Technical Verification:** Bound the workstation client to IP address `192.168.22.66`. Crucially, pointed the **Preferred DNS Server** directly to the primary Domain Controller's IP footprint (`192.168.22.129`). This local adjustment immediately restored active directory communication and authentication paths.
 
 ![Client Network Adapter Properties](https://raw.githubusercontent.com/kevcoded/Windows-Server-Active-Directory-Lab/main/images/8.%20DNS%20and%20IP%20on%20windows%20_2.png)
-*Figure 3: Adjusting TCP/IPv4 adapter attributes to restore local Active Directory DNS name resolution paths (Ref: file "8. DNS and IP on Windows _2.png").*
+*Figure 3: Adjusting TCP/IPv4 adapter attributes to restore local Active Directory DNS name resolution paths (Ref: file "8. DNS and IP on windows _2.png").*
 
 ---
 
