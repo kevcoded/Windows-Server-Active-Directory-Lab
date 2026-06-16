@@ -1,4 +1,4 @@
-# 🛠️ Enterprise Windows Server 2022 & Active Directory Home Lab
+# Windows Server 2022 & Active Directory Home Lab
 
 This repository serves as a comprehensive, hands-on technical portfolio demonstrating my capability to deploy, secure, and manage an enterprise-grade corporate IT network infrastructure using VMware Workstation.
 
@@ -12,9 +12,9 @@ Before resolving client support tickets, the baseline environment metrics were t
 
 ---
 
-## 🚀 High-Priority Core Help Desk Competencies
+## High-Priority Core Help Desk Competencies
 
-### 🎟️ Ticket #1024: Identity & Access Management (IAM) User Onboarding
+### Ticket #1024: Identity & Access Management (IAM) User Onboarding
 **Ticket Description:** *HR has submitted an official employee onboarding request for a new standard user, "John Lim". The technician must provision a domain account matching standard corporate naming conventions.*
 
 *   **Administrative Action:** Navigated the Active Directory Users and Computers (ADUC) graphical user interface to safely initialize a new employee user object.
@@ -25,7 +25,7 @@ Before resolving client support tickets, the baseline environment metrics were t
 
 ---
 
-### 🎟️ Ticket #1025: Standard User Password Reset Workflow
+### Ticket #1025: Standard User Password Reset Workflow
 **Ticket Description:** *Standard domain user "John" is locked out or requires a controlled password reset following security baseline changes. Ensure the account remains secure during triage.*
 
 *   **Administrative Action:** Targeted the user object in the ADUC directory hierarchy, opened the context actions menu, and initiated the reset wizard.
@@ -36,7 +36,7 @@ Before resolving client support tickets, the baseline environment metrics were t
 
 ---
 
-### 🎟️ Ticket #1141: Workstation Network Routing & Local DNS Triage
+### Ticket #1141: Workstation Network Routing & Local DNS Triage
 **Ticket Description:** *The Windows 11 workstation client `KEV` is experiencing local name resolution failures and cannot authenticate against or connect to the `KevCloud.local` domain controller.*
 
 * **Administrative Action:** Diagnosed an environmental routing issue where the client node's network adapter parameters were misaligned. Manually configured the workstation's static TCP/IPv4 stack.
@@ -47,7 +47,7 @@ Before resolving client support tickets, the baseline environment metrics were t
 
 ---
 
-### 🛡️ Scenario: Account Baseline Lockout & Password Security Auditing (Group Policy Validation)
+### Scenario: Account Baseline Lockout & Password Security Auditing (Group Policy Validation)
 **Scenario Context:** *Audit the domain's global credential configuration vectors to prevent brute-force attacks and confirm that Active Directory Group Policies are successfully maintaining infrastructure compliance.*
 
 *   **Administrative Action:** Executed `net accounts` via the command line interface on the Primary Domain Controller to read active policy definitions.
@@ -58,7 +58,7 @@ Before resolving client support tickets, the baseline environment metrics were t
 
 ---
 
-## ⚙️ Standard Infrastructure Operations & Maintenance
+## Standard Infrastructure Operations & Maintenance
 
 ### 🔍 Scenario: Command Line Infrastructure Architecture Audit
 **Scenario Context:** *Confirm hardware baselines, kernel versions, hotfixes, and operating system role parameters on the newly provisioned host system.*
@@ -71,7 +71,7 @@ Before resolving client support tickets, the baseline environment metrics were t
 
 ---
 
-### 🎟️ Ticket #1026: Directory Identity Metadata & Directory Triage
+### Ticket #1026: Directory Identity Metadata & Directory Triage
 **Ticket Description:** *Verify that the newly provisioned employee account "John" has been restricted properly to standard security groups and has active password policy timelines applied over the domain.*
 
 *   **Administrative Action:** Executed the administrative query utility `net user John /domain` within the Command Prompt terminal to extract active directory structural properties.
@@ -82,7 +82,7 @@ Before resolving client support tickets, the baseline environment metrics were t
 
 ---
 
-### 🎟️ Ticket #1102: Active Directory Asset Inventory & Organization
+### Ticket #1102: Active Directory Asset Inventory & Organization
 **Ticket Description:** *Verify that the desktop workstation asset has successfully registered within the central domain network structure and that regional folders are organized.*
 
 *   **Administrative Action:** Opened the ADUC administration hierarchy tree to audit active structural elements.
@@ -93,7 +93,7 @@ Before resolving client support tickets, the baseline environment metrics were t
 
 ---
 
-### 🎟️ Ticket #1140: Domain Controller Interface Verification
+### Ticket #1140: Domain Controller Interface Verification
 **Ticket Description:** *Confirm the structural static IP mapping bound to the primary server interface to ensure network resolution paths remain static.*
 
 *   **Administrative Action:** Triggered basic command prompt routing diagnostics on the main server console.
@@ -104,7 +104,7 @@ Before resolving client support tickets, the baseline environment metrics were t
 
 ---
 
-### 🎟️ Ticket #1201: Cross-Platform File Systems Integration
+### Ticket #1201: Cross-Platform File Systems Integration
 **Ticket Description:** *Establish a reliable path to pass tools, setup configurations, and document records securely across the virtual host-guest isolation layers.*
 
 *   **Administrative Action:** Enabled automated Shared Folder mappings inside the VMware hypervisor platform properties menu.
@@ -115,9 +115,9 @@ Before resolving client support tickets, the baseline environment metrics were t
 
 ---
 
-## 🔒 Advanced Operations: Remote Access Hardening & Enterprise Patch Automation
+## Advanced Operations: Remote Access Hardening & Enterprise Patch Automation
 
-### 🎟️ Ticket #1288: Remote Desktop Access Control & Endpoint Hardening
+### Ticket #1288: Remote Desktop Access Control & Endpoint Hardening
 **Ticket Description:** *Configure the system to accept secure remote connections from Tier-1/Tier-2 Technical Support teams, ensuring the environment is protected against unauthenticated credential-harvesting exploits.*
 
 *   **Administrative Action:** Modified Advanced System Settings under the `Remote` tab within the Windows environment. Explicitly configured the host system to accept inbound connections.
@@ -129,7 +129,7 @@ Before resolving client support tickets, the baseline environment metrics were t
 
 ---
 
-### 🎟️ Ticket #1350: Enterprise Patch Automation & Cloud Fleet Management
+### Ticket #1350: Enterprise Patch Automation & Cloud Fleet Management
 **Ticket Description:** *Integrate modern, cloud-based Unified Endpoint Management (UEM) to control vulnerabilities, override standard Windows Update behavior, and maintain continuous infrastructure patch compliance.*
 
 *   **Administrative Action:** Deployed the **Action1 Platform** management agent to take complete control of system updating operations across the network fleet.
@@ -140,10 +140,10 @@ Before resolving client support tickets, the baseline environment metrics were t
 
 ---
 
-## 📊 Centralized UEM Logging & Endpoint Telemetry Reports
+## Centralized UEM Logging & Endpoint Telemetry Reports
 *The following structural data maps directly out of the raw enterprise log exports generated on the network fleet via the Action1 Platform, showcasing advanced auditing visibility.*
 
-### 🖥️ Report 1: Managed Endpoints Export Summary
+### Report 1: Managed Endpoints Export Summary
 * **Log Reference ID:** `Managed Endpoints.html` / `Managed Endpoints.html_3.pdf`
 * **Extraction Frame:** Live and Cached Endpoint State Audit
 
@@ -158,7 +158,7 @@ Before resolving client support tickets, the baseline environment metrics were t
 
 ---
 
-### ⚙️ Report 2: Hardware Infrastructure Architecture Profile
+### Report 2: Hardware Infrastructure Architecture Profile
 * **Log Reference ID:** `Hardware Summary.html` / `Hardware Summary.pdf`
 * **Extraction Frame:** Underlying Host Architecture Profile
 
