@@ -27,7 +27,7 @@ Before resolving client support tickets, the baseline environment metrics were t
 ---
 
 ### 🎟️ Ticket #1024: Identity & Access Management (IAM) User Onboarding
-**Ticket Description:** *HR has submitted an official employee onboarding request for a new standard user, "John Doe". The technician must provision a domain account matching standard corporate naming conventions.*
+**Ticket Description:** *HR has submitted an official employee onboarding request for a new standard user, "John Lim". The technician must provision a domain account matching standard corporate naming conventions.*
 
 *   **Administrative Action:** Navigated the Active Directory Users and Computers (ADUC) graphical user interface to safely initialize a new employee user object.
 *   **Technical Verification:** Target-routed the object creation path to the default corporate directory container, enforcing a standard User Principal Name (UPN) scheme of `John@KevCloud.local`.
